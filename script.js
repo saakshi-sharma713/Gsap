@@ -1,14 +1,13 @@
 let tl=gsap.timeline();
 tl.to(" #fanta",{
-    y:500,
-    x:-300,
+    y:520,
+    x:-325,
 scrollTrigger:{
     trigger:".two",
     scroller:"body",
-    start:"top 60%",
+    start:"top 80%",
     end:"top 10%",
-    scrub:1,
-    markers:true,
+    scrub:1
 
 }
 })
@@ -21,18 +20,18 @@ tl.to("#leaf2",{
     scrollTrigger:{
         trigger:".two",
         scroller:"body",
-        start:"top 60%",
+        start:"top 80%",
         end:"top 10%",
         scrub:1
     }
 })
 tl.to("#orange",{
-    y:610,
-    x:400,
+    y:650,
+    x:410,
     scrollTrigger:{
         trigger:".two",
         scroller:"body",
-        start:"top 60%",
+        start:"top 80%",
         end:"top 10%",
         scrub:1
     }
@@ -96,7 +95,7 @@ tl.from(".pepsi",{
 })
 tl.to("#fanta",{
     top:"120%",
-    left:"65%",
+    left:"66%",
     width:"15%",
     rotate:0,
     scrollTrigger:{
